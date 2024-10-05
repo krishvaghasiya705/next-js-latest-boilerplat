@@ -1,0 +1,20 @@
+.header {
+    background-color: #333;
+    padding: 15px;
+    
+    nav ul {
+      display: flex;
+      list-style: none;
+      gap: 20px;
+    }
+  
+    nav a {
+      color: white;
+      text-decoration: none;
+  
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+  
